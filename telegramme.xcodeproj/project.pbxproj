@@ -16,6 +16,8 @@
 		E65FD72D255EFD2A00A8EAF7 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65FD72C255EFD2A00A8EAF7 /* Content.storyboard */; };
 		E65FD730255EFE4D00A8EAF7 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD72F255EFE4D00A8EAF7 /* AddContactViewController.swift */; };
 		E65FD733255EFF4500A8EAF7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD732255EFF4500A8EAF7 /* Contact.swift */; };
+		E65FD736255F00DE00A8EAF7 /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD735255F00DE00A8EAF7 /* ShowContactViewController.swift */; };
+		E65FD739255F06DA00A8EAF7 /* Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD738255F06DA00A8EAF7 /* Edit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E65FD72C255EFD2A00A8EAF7 /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
 		E65FD72F255EFE4D00A8EAF7 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		E65FD732255EFF4500A8EAF7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E65FD735255F00DE00A8EAF7 /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
+		E65FD738255F06DA00A8EAF7 /* Edit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +69,12 @@
 				E65FD717255EFBC600A8EAF7 /* AppDelegate.swift */,
 				E65FD719255EFBC600A8EAF7 /* SceneDelegate.swift */,
 				E65FD71B255EFBC600A8EAF7 /* ViewController.swift */,
+				E65FD738255F06DA00A8EAF7 /* Edit.swift */,
 				E65FD71D255EFBC600A8EAF7 /* Main.storyboard */,
 				E65FD732255EFF4500A8EAF7 /* Contact.swift */,
 				E65FD72C255EFD2A00A8EAF7 /* Content.storyboard */,
 				E65FD72F255EFE4D00A8EAF7 /* AddContactViewController.swift */,
+				E65FD735255F00DE00A8EAF7 /* ShowContactViewController.swift */,
 				E65FD720255EFBC600A8EAF7 /* Assets.xcassets */,
 				E65FD722255EFBC600A8EAF7 /* LaunchScreen.storyboard */,
 				E65FD725255EFBC600A8EAF7 /* Info.plist */,
@@ -151,6 +157,8 @@
 				E65FD730255EFE4D00A8EAF7 /* AddContactViewController.swift in Sources */,
 				E65FD733255EFF4500A8EAF7 /* Contact.swift in Sources */,
 				E65FD718255EFBC600A8EAF7 /* AppDelegate.swift in Sources */,
+				E65FD739255F06DA00A8EAF7 /* Edit.swift in Sources */,
+				E65FD736255F00DE00A8EAF7 /* ShowContactViewController.swift in Sources */,
 				E65FD71A255EFBC600A8EAF7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
