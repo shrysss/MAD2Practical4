@@ -12,6 +12,7 @@ class ShowContactViewController : UITableViewController {
     
     //Alternative Method
     //var contact:Contact?
+    var contactController = ContactController()
     
     var appDelegate = UIApplication.shared.delegate as! AppDelegate
     
@@ -35,6 +36,8 @@ class ShowContactViewController : UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)
+        
+        
         
         let contact = appDelegate.contactList[indexPath.row]
         cell.textLabel!.text = "\(contact.firstName) \(contact.lastName)"

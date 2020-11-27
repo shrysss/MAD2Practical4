@@ -18,6 +18,9 @@
 		E65FD733255EFF4500A8EAF7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD732255EFF4500A8EAF7 /* Contact.swift */; };
 		E65FD736255F00DE00A8EAF7 /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD735255F00DE00A8EAF7 /* ShowContactViewController.swift */; };
 		E65FD739255F06DA00A8EAF7 /* Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD738255F06DA00A8EAF7 /* Edit.swift */; };
+		E65FD73D256F387800A8EAF7 /* telegramme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E65FD73B256F387800A8EAF7 /* telegramme.xcdatamodeld */; };
+		E65FD740256F3D4300A8EAF7 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD73F256F3D4300A8EAF7 /* ContactController.swift */; };
+		E65FD7432571518500A8EAF7 /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD7422571518500A8EAF7 /* FriendController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		E65FD732255EFF4500A8EAF7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		E65FD735255F00DE00A8EAF7 /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 		E65FD738255F06DA00A8EAF7 /* Edit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit.swift; sourceTree = "<group>"; };
+		E65FD73C256F387800A8EAF7 /* telegramme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = telegramme.xcdatamodel; sourceTree = "<group>"; };
+		E65FD73F256F3D4300A8EAF7 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		E65FD7422571518500A8EAF7 /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +81,12 @@
 				E65FD72C255EFD2A00A8EAF7 /* Content.storyboard */,
 				E65FD72F255EFE4D00A8EAF7 /* AddContactViewController.swift */,
 				E65FD735255F00DE00A8EAF7 /* ShowContactViewController.swift */,
+				E65FD7422571518500A8EAF7 /* FriendController.swift */,
+				E65FD73B256F387800A8EAF7 /* telegramme.xcdatamodeld */,
 				E65FD720255EFBC600A8EAF7 /* Assets.xcassets */,
 				E65FD722255EFBC600A8EAF7 /* LaunchScreen.storyboard */,
 				E65FD725255EFBC600A8EAF7 /* Info.plist */,
+				E65FD73F256F3D4300A8EAF7 /* ContactController.swift */,
 			);
 			path = telegramme;
 			sourceTree = "<group>";
@@ -155,11 +164,14 @@
 			files = (
 				E65FD71C255EFBC600A8EAF7 /* ViewController.swift in Sources */,
 				E65FD730255EFE4D00A8EAF7 /* AddContactViewController.swift in Sources */,
+				E65FD73D256F387800A8EAF7 /* telegramme.xcdatamodeld in Sources */,
 				E65FD733255EFF4500A8EAF7 /* Contact.swift in Sources */,
 				E65FD718255EFBC600A8EAF7 /* AppDelegate.swift in Sources */,
 				E65FD739255F06DA00A8EAF7 /* Edit.swift in Sources */,
 				E65FD736255F00DE00A8EAF7 /* ShowContactViewController.swift in Sources */,
+				E65FD7432571518500A8EAF7 /* FriendController.swift in Sources */,
 				E65FD71A255EFBC600A8EAF7 /* SceneDelegate.swift in Sources */,
+				E65FD740256F3D4300A8EAF7 /* ContactController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E65FD73B256F387800A8EAF7 /* telegramme.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E65FD73C256F387800A8EAF7 /* telegramme.xcdatamodel */,
+			);
+			currentVersion = E65FD73C256F387800A8EAF7 /* telegramme.xcdatamodel */;
+			path = telegramme.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E65FD70C255EFBC600A8EAF7 /* Project object */;
 }

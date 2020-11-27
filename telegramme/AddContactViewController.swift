@@ -14,6 +14,8 @@ class AddContactViewController : UIViewController {
     @IBOutlet weak var lastNameFld: UITextField!
     @IBOutlet weak var mobileFld: UITextField!
     
+    var contactController = ContactController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -30,7 +32,11 @@ class AddContactViewController : UIViewController {
         print(String(appDelegate.contactList.count))
         //create guy
         let contact = Contact(firstname: firstNameFld.text!, lastname: lastNameFld.text!, mobileno: mobileFld.text!)
-        appDelegate.contactList.append(contact)
+        //appDelegate.contactList.append(contact)
+        
+        contactController.AddContact(newContact: contact)
+        
+        
         
         //checks if a new guy has been added
         print(String(appDelegate.contactList.count))
