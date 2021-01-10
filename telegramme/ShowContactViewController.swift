@@ -42,6 +42,7 @@ class ShowContactViewController : UITableViewController {
         let contact = appDelegate.contactList[indexPath.row]
         cell.textLabel!.text = "\(contact.firstName) \(contact.lastName)"
         cell.detailTextLabel!.text = "\(contact.mobileNo)"
+        self.tableView.reloadData()
         return cell
     }
     

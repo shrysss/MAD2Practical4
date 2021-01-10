@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60E4D6C25AB63BA00030850 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60E4D6B25AB63BA00030850 /* LocationDelegate.swift */; };
 		E65FD718255EFBC600A8EAF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD717255EFBC600A8EAF7 /* AppDelegate.swift */; };
 		E65FD71A255EFBC600A8EAF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD719255EFBC600A8EAF7 /* SceneDelegate.swift */; };
 		E65FD71C255EFBC600A8EAF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD71B255EFBC600A8EAF7 /* ViewController.swift */; };
@@ -21,9 +22,11 @@
 		E65FD73D256F387800A8EAF7 /* telegramme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E65FD73B256F387800A8EAF7 /* telegramme.xcdatamodeld */; };
 		E65FD740256F3D4300A8EAF7 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD73F256F3D4300A8EAF7 /* ContactController.swift */; };
 		E65FD7432571518500A8EAF7 /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD7422571518500A8EAF7 /* FriendController.swift */; };
+		E6B7E49725AB211200F0F8DD /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7E49625AB211200F0F8DD /* MapKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E60E4D6B25AB63BA00030850 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
 		E65FD714255EFBC600A8EAF7 /* telegramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telegramme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65FD717255EFBC600A8EAF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E65FD719255EFBC600A8EAF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		E65FD73C256F387800A8EAF7 /* telegramme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = telegramme.xcdatamodel; sourceTree = "<group>"; };
 		E65FD73F256F3D4300A8EAF7 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 		E65FD7422571518500A8EAF7 /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
+		E6B7E49625AB211200F0F8DD /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +78,13 @@
 			children = (
 				E65FD717255EFBC600A8EAF7 /* AppDelegate.swift */,
 				E65FD719255EFBC600A8EAF7 /* SceneDelegate.swift */,
+				E60E4D6B25AB63BA00030850 /* LocationDelegate.swift */,
 				E65FD71B255EFBC600A8EAF7 /* ViewController.swift */,
 				E65FD738255F06DA00A8EAF7 /* Edit.swift */,
 				E65FD71D255EFBC600A8EAF7 /* Main.storyboard */,
 				E65FD732255EFF4500A8EAF7 /* Contact.swift */,
 				E65FD72C255EFD2A00A8EAF7 /* Content.storyboard */,
+				E6B7E49625AB211200F0F8DD /* MapKitView.swift */,
 				E65FD72F255EFE4D00A8EAF7 /* AddContactViewController.swift */,
 				E65FD735255F00DE00A8EAF7 /* ShowContactViewController.swift */,
 				E65FD7422571518500A8EAF7 /* FriendController.swift */,
@@ -162,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B7E49725AB211200F0F8DD /* MapKitView.swift in Sources */,
+				E60E4D6C25AB63BA00030850 /* LocationDelegate.swift in Sources */,
 				E65FD71C255EFBC600A8EAF7 /* ViewController.swift in Sources */,
 				E65FD730255EFE4D00A8EAF7 /* AddContactViewController.swift in Sources */,
 				E65FD73D256F387800A8EAF7 /* telegramme.xcdatamodeld in Sources */,
